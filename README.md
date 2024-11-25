@@ -107,8 +107,6 @@ Use the frontend HTML pages to interact with the application.
 Optional:
 
 Use Postman to test backend APIs directly.
-Screenshots
-Homepage
 Description of the homepage...
 
 Market Prices
