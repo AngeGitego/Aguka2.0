@@ -22,7 +22,9 @@ exports.addPost = async (req, res) => {
 // Fetch all forum posts
 exports.getAllPosts = async (req, res) => {
   try {
+  
     const query = 'SELECT * FROM community_posts ORDER BY created_at DESC;';
+
     const result = await pool.query(query);
 
     res.status(200).json(result.rows);
